@@ -4,3 +4,6 @@
 #### EXAMPLE
 ##### Input : the node c from linked list a->b->c->d->e->f
 ##### Result : nothing is returned, but new linked list looks like a->b->d->e->f
+
+## Solution
+- Assign node to next node (check is the node is last or null node)
