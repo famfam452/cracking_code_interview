@@ -4,3 +4,7 @@
 #### EXAMPLE
 ##### Input: 3->5->8->5->10->2->1 [partition 5]
 ##### Output: 3->1->2->10->5->5->8
+
+## Solution
+- Split node into two new linkedList fist for node that is lower than x and higher than x for second node then merge together
+- Move a lower node to to be head and higher to be tail
