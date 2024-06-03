@@ -9,3 +9,7 @@
 #### EXAMPLE
 ##### Input: (6->1->7) + (2->9->5). That is, 617 + 295.
 ##### Output: 9->1->2 That is 912.
+
+## Solution
+- Backward store : use carry do recursive or iteration
+- Forward store: pad list-> addList get Patialsum -> add left over carry value at front of the list (insertBefore) [Do recursive]
